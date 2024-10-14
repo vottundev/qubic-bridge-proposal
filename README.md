@@ -3,6 +3,8 @@
 
 ## Bridge Overview
 
+![Bridge Overview](https://github.com/vottunio/qubic-bridge-proposal/blob/main/bridge-overview.png)
+
 ## How does it work
 This bridge connects the Qubic (non-EVM) network with Ethereum, allowing users to transfer tokens between the two networks. The system operates as follows:
 
