@@ -9,7 +9,7 @@
 This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, allowing users to transfer tokens between the two networks. The system operates as follows:
 
 ### 1. User Interface (Frontend):
-- Users interact with the Vottun platform through an interface that allows them to connect their wallet (We assume that there is a wallet to use in front end. We are investigating what wallet extension to use by the users. Metamask Snap could be an option but it is in an experimental phase).
+- Users interact with the Vottun platform through an interface that allows them to connect their wallet (We assume that there is a wallet to use in front end. We are investigating what wallet extension to use by the users. Metamask Snaps could be an option but it is in an experimental phase).
 - Once connected, users select the type of swap they want to perform: sending tokens from Qubic to Ethereum & Arbitrum One, or vice versa.
 
 ### 2. Origin Chain Operations:
@@ -63,7 +63,7 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 - Ethereum, Arbitrum One & Qubic Smart Contract development
 - Vottun Backend development
 - Liquidity Pools creation
-- Integration with Metamask Snap or other compatible Wallets
+- Integration with Metamask Snaps or other compatible Wallets
   
 **Total Development Hours**: 280  
 
