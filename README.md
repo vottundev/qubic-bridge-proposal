@@ -13,22 +13,22 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 - Once connected, users select the type of swap they want to perform: sending tokens from Qubic to Ethereum & Arbitrum One, or vice versa.
 
 ### 2. Origin Chain Operations:
-- If the user decides to swap Qubic (Qub) to Ethereum/Arbitrum One, the Back End sends an order to smart contracts on the Qubic network to execute the corresponding transfer.
-- If the user decides to swap (wQub) to Qubic, the Back End sends an order to smart contracts on the Ethereum/Arbitrum One networks to execute the corresponding transfer.
+- If the user decides to swap Qubic (Qu) to Ethereum/Arbitrum One, the Back End sends an order to smart contracts on the Qubic network to execute the corresponding transfer.
+- If the user decides to swap (wQu) to Qubic, the Back End sends an order to smart contracts on the Ethereum/Arbitrum One networks to execute the corresponding transfer.
 
 ### 3. Operations on Vottun (Backend):
 - Vottun Back End acts as the intermediary between the two networks, managing transactions and validating that the orders on Qubic/Ethereum/Arbitrum One have been correctly executed.
 - Once the operation on chain is validated, the Back End communicates with the appropriate smart contract on the other chain to execute the inverse operation and complete the swap.
 
 ### 4. Destination Chain Operations:
-- If the user decides to swap wrapped Qubic (wQub) to Qubic, the Back End sends an instruction to smart contracts on Ethereum/Arbitrum One to execute the order to reflect the equivalent amount
-- If the user decides to swap wrapped Qubic (wQub) to Qubic, the Back End sends an instruction to smart contracts on the Ethereum/Arbitrum One network to execute the corresponding transfer, reflecting the equivalent amount of Qubic (Qub) in the user’s wallet on the Qubic network.
+- If the user decides to swap wrapped Qubic (wQu) to Qubic, the Back End sends an instruction to smart contracts on Ethereum/Arbitrum One to execute the order to reflect the equivalent amount
+- If the user decides to swap wrapped Qubic (wQu) to Qubic, the Back End sends an instruction to smart contracts on the Ethereum/Arbitrum One network to execute the corresponding transfer, reflecting the equivalent amount of Qubic (Qu) in the user’s wallet on the Qubic network.
 - In both cases, the order is updated with the transfer transaction hash.
 
 
 ### Process Summary:
-- **Qub to wQub**: Smart contracts on Qubic and Ethereum/Arbitrum One execute the swap orders to reflect the tokens on both networks.
-- **wQub to Qub**: Smart contracts on Ethereum/Arbitrum One and Qubic execute the reverse swap orders to reflect the tokens.
+- **Qu to wQu**: Smart contracts on Qubic and Ethereum/Arbitrum One execute the swap orders to reflect the tokens on both networks.
+- **wQu to Qu**: Smart contracts on Ethereum/Arbitrum One and Qubic execute the reverse swap orders to reflect the tokens.
 - **Vottun**: manages the process between both networks, ensuring that the orders are executed correctly.
 
 
@@ -129,7 +129,7 @@ This phase covers the creation of the smart contracts and interaction logic need
 ### Deliverables:
 - **Smart Contracts:** 
   - Develop smart contracts on Qubic for token swap operations. (33% of the milestone --> 2.650 USD)
-  - Develop smart contracts on Ethereum/Arbitrum One to handle wrapped Qubic (wQub). (33% of the milestone --> 2.650 USD)
+  - Develop smart contracts on Ethereum/Arbitrum One to handle wrapped Qubic (wQu). (33% of the milestone --> 2.650 USD)
   - Ensure cross-chain communication logic between Qubic and Ethereum/Arbitrum One.
 
 - **Contract Deployment:** (33% of the milestone --> 2.650 USD)
