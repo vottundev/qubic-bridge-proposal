@@ -129,8 +129,8 @@ This phase focuses on planning and setting up the framework for the bridge, esta
   - Set up the development environment for smart contracts, backend, and frontend.
   - Establish communication protocols between Qubic and Ethereum/Arbitrum One networks.
 
-**Amount Unlocked End of Milestone 1**: 20% --> Option 1: 5.300 USD / Option 2: 4.520 USD 
-
+**Amount Unlocked End of Milestone 1 (in case of Option 1)**: 20% --> Option 1: 5.300 USD 
+**Amount Unlocked End of Milestone 1 (in case of Option 2)**: 20% --> Option 2: 4.520 USD
 
 ---
 
@@ -175,7 +175,8 @@ This phase covers the development of the user interface, backend logic, integrat
   - Conduct extensive testing to ensure secure and accurate token swaps.
   - Perform a security audit to validate the system's reliability.
 
-**Amount Unlocked End of Milestone 3**: 40% --> Option 1: 10.600 USD / 80% --> Option 2: 18.080 USD
+**Amount Unlocked End of Milestone 3 (in case of Option 1)**: 40% --> Option 1: 10.600 USD
+**Amount Unlocked End of Milestone 3 (in case of Option 2)**: 80% --> Option 2: 18.080 USD 
 
 ## Considerations:
 - The infrastructure is shared; to have a dedicated infrastructure, a separate quotation will be required.
