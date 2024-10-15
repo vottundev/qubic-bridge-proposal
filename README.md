@@ -66,13 +66,13 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 - Liquidity Pools creation
 - Integration with Metamask Flask or other compatible Wallets
   
-**Total Development Hours**: 240  
+**Total Development Hours**: 280  
 
 **Testing And Deployment Hours**: 40
 
 **GO-LIVE**: 8
 
-**Total Budget: 23,300 USD**
+**Total Budget: 26,500 USD**
 
 ---
 
@@ -84,13 +84,14 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 - Vottun Backend development
 - Liquidity Pools creation
 
-**Total Development Hours**: 192  
+**Total Development Hours**: 232  
 
 **Testing And Deployment Hours**: 40
 
 **GO-LIVE**: 8
 
-**Total Budget: 19,416 USD**
+**Total Budget: 22,600 USD**
+
 
 ## Service Bridge for both proposals
 
@@ -104,7 +105,77 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 
 **SERVICE PROVIDER OPERATIONAK¿L SUPPORT (12 MONTHS)**: **8,000 USD**
 
+
 ---
+
+
+## Milestones
+The project will be divided in 3 milestones in order to deliver the Grant: 
+
+## Milestone 1: Definition, Design, and Set-Up
+This phase focuses on planning and setting up the framework for the bridge, establishing the tools and initial environment for the project.
+
+### Deliverables:
+- **Project Definition and Requirements:**
+  - Finalize the project scope and requirements.
+  - Confirm the wallet solution for Qubic integration.
+  - Define the architecture of the bridge (Frontend, Backend, and Smart Contract interactions).
+
+- **Design:**
+  - Create the user flow and wireframes for the user interface (wallet connection and token swap UI).
+  - Design the backend structure to manage communication between Qubic and Ethereum/Arbitrum One.
+
+- **Set-Up:**
+  - Set up the development environment for smart contracts, backend, and frontend.
+  - Establish communication protocols between Qubic and Ethereum/Arbitrum One networks.
+
+**Amount Unlocked End of Milestone 1**: 20% --> Option 1: 5.300 USD / Option 2: 4.520 USD 
+
+
+---
+
+
+## Milestone 2: Smart Contract Development (only applies with Option 1)
+This phase covers the creation of the smart contracts and interaction logic needed for token swaps between the Qubic and Ethereum/Arbitrum One networks.
+
+### Deliverables:
+- **Smart Contracts:**
+  - Develop smart contracts on Qubic for token swap operations.
+  - Develop smart contracts on Ethereum/Arbitrum One to handle wrapped Qubic (wQub).
+  - Ensure cross-chain communication logic between Qubic and Ethereum/Arbitrum One.
+
+- **Contract Deployment:**
+  - Deploy smart contracts on test networks (Qubic, Ethereum, and Arbitrum One).
+  - Set up liquidity pools for the swap functionality.
+
+- **Initial Testing:**
+  - Test the smart contract functions in isolation, ensuring correct swaps between Qubic and Ethereum/Arbitrum One.
+
+**Amount Unlocked End of Milestone 2**: 40% --> Option 1: 10.600 USD
+
+
+---
+
+
+## Milestone 3: Frontend, Backend, SC Integration & Testing
+This phase covers the development of the user interface, backend logic, integration of the system, and full-scale testing of the entire bridge.
+
+### Deliverables:
+- **Frontend Development:**
+  - Build the interface for wallet connection (based on the wallet solution defined in Milestone 1).
+  - Develop UI for token swap selection and transaction tracking.
+
+- **Backend Development:**
+  - Implement backend logic to handle swap requests.
+  - Integrate the backend with the smart contracts on Qubic and Ethereum/Arbitrum One.
+  - Ensure that the backend manages order validation and updates users' wallets accurately.
+
+- **Integration & Testing:**
+  - Integrate the frontend, backend, and smart contracts for seamless user interaction.
+  - Conduct extensive testing to ensure secure and accurate token swaps.
+  - Perform a security audit to validate the system's reliability.
+
+**Amount Unlocked End of Milestone 3**: 40% --> Option 1: 10.600 USD / 80% --> Option 2: 18.080 USD
 
 ## Considerations:
 - The infrastructure is shared; to have a dedicated infrastructure, a separate quotation will be required.
