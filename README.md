@@ -82,11 +82,17 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 
 **LIQUIDITY MANAGEMENT (LIQUIDITY POOL MANAGE QUBIC ALLOWANCE FUNDS)**: 2,400 USD
 
-**TX FEE**: TBD
+**TX FEE**: 
+
+- 0.1% goes to the Qubic fund.
+- 0.05% goes to Vottun for software upgrades.
+- X % goes to liquidity Pools (exact % based on market conditions).
+
+- These percentages are based on the transaction amount. 
 
 **Total BUDGET**: **8,400 USD + TX FEES**
 
-**SERVICE PROVIDER OPERATIONAK¿L SUPPORT (12 MONTHS)**: **8,000 USD**
+**SERVICE PROVIDER OPERATIONAL SUPPORT (12 MONTHS)**: **8,000 USD**
 
 
 ---
