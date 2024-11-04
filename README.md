@@ -71,8 +71,9 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 
 **GO-LIVE**: 8
 
-**Total Budget: 26,500 USD**
+**Total Budget: 18,550 USD**
 
+**Vottun PM: 7,950 USD**
 ---
 
 
@@ -105,7 +106,7 @@ The project will be divided in milestones in order to deliver the Grant:
   - Establish Communication Channels.
   - Team Creation and Project Organization.
 
-**Amount Unlocked End of Kick Off**: 7.950 USD
+**Amount Unlocked End of Kick Off**: 5,565 USD
 
 ## Milestone 1: Definition, Design, and Set-Up (10% of the project grant)
 This phase focuses on planning and setting up the framework for the bridge, establishing the tools and initial environment for the project.
@@ -124,7 +125,7 @@ This phase focuses on planning and setting up the framework for the bridge, esta
   - Set up the development environment for smart contracts, backend, and frontend.
   - Establish communication protocols between Qubic and Ethereum/Arbitrum One networks.
 
-**Amount Unlocked End of Milestone 1**: 2.650 USD 
+**Amount Unlocked End of Milestone 1**: 1,855 USD 
 
 ---
 
@@ -134,18 +135,18 @@ This phase covers the creation of the smart contracts and interaction logic need
 
 ### Deliverables:
 - **Smart Contracts:** 
-  - Develop smart contracts on Qubic for token swap operations. (33% of the milestone --> 2.650 USD)
-  - Develop smart contracts on Ethereum/Arbitrum One to handle wrapped Qubic (wQUBIC). (33% of the milestone --> 2.650 USD)
+  - Develop smart contracts on Qubic for token swap operations. (33% of the milestone --> 1,855 USD)
+  - Develop smart contracts on Ethereum/Arbitrum One to handle wrapped Qubic (wQUBIC). (33% of the milestone --> 1,855 USD)
   - Ensure cross-chain communication logic between Qubic and Ethereum/Arbitrum One.
 
-- **Contract Deployment:** (33% of the milestone --> 2.650 USD)
+- **Contract Deployment:** (33% of the milestone --> 1,855 USD)
   - Deploy smart contracts on test networks (Qubic, Ethereum, and Arbitrum One).
   - Set up liquidity pools for the swap functionality.
 
 - **Initial Testing:**
   - Test the smart contract functions in isolation, ensuring correct swaps between Qubic and Ethereum/Arbitrum One.
 
-**Amount Unlocked End of Milestone 2**: 7.950 USD
+**Amount Unlocked End of Milestone 2**: 5,565 USD
 
 
 ---
@@ -155,21 +156,21 @@ This phase covers the creation of the smart contracts and interaction logic need
 This phase covers the development of the user interface, backend logic, integration of the system, and full-scale testing of the entire bridge.
 
 ### Deliverables:
-- **Frontend Development:** (33% of the milestone --> 2.650 USD)
+- **Frontend Development:** (33% of the milestone --> 1,855 USD)
   - Build the interface for wallet connection (based on the wallet solution defined in Milestone 1).
   - Develop UI for token swap selection and transaction tracking.
 
-- **Backend Development:** (33% of the milestone --> 2.650 USD)
+- **Backend Development:** (33% of the milestone --> 1,855 USD)
   - Implement backend logic to handle swap requests.
   - Integrate the backend with the smart contracts on Qubic and Ethereum/Arbitrum One.
   - Ensure that the backend manages order validation and updates users' wallets accurately.
 
-- **Integration & Testing:** (33% of the milestone --> 2.650 USD)
+- **Integration & Testing:** (33% of the milestone --> 1,855 USD)
   - Integrate the frontend, backend, and smart contracts for seamless user interaction.
   - Conduct extensive testing to ensure secure and accurate token swaps.
   - Perform a security audit to validate the system's reliability.
 
-**Amount Unlocked End of Milestone 3**: 7.950 USD
+**Amount Unlocked End of Milestone 3**: 5,565 USD
 
 ---
 
