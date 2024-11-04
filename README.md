@@ -72,6 +72,7 @@ This bridge connects the Qubic (non-EVM) network with Ethereum / Arbitrum One, a
 **GO-LIVE**: 8
 
 **Total Budget: 26,500 USD**
+
 **Include Vottun PM: 7,950 USD**
 
 ---
