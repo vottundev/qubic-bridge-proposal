@@ -140,9 +140,12 @@ This phase covers the creation of the smart contracts and interaction logic need
   - Develop smart contracts on Ethereum/Arbitrum One to handle wrapped Qubic (wQUBIC). (33% of the milestone --> 1,855 USD)
   - Ensure cross-chain communication logic between Qubic and Ethereum/Arbitrum One.
 
-- **Contract Deployment:** (33% of the milestone --> 1,855 USD)
+- **Contract Deployment:** (33% of the milestone --> 1,855 USD*)
   - Deploy smart contracts on test networks (Qubic, Ethereum, and Arbitrum One).
   - Set up liquidity pools for the swap functionality.
+ 
+*Qubic Smart Contract Deploy: 927.5 USD / EVM Smart Contract Deploy: 927.5 USD
+    
 
 - **Initial Testing:**
   - Test the smart contract functions in isolation, ensuring correct swaps between Qubic and Ethereum/Arbitrum One.
@@ -166,10 +169,13 @@ This phase covers the development of the user interface, backend logic, integrat
   - Integrate the backend with the smart contracts on Qubic and Ethereum/Arbitrum One.
   - Ensure that the backend manages order validation and updates users' wallets accurately.
 
-- **Integration & Testing:** (33% of the milestone --> 1,855 USD)
+- **Integration & Testing:** (33% of the milestone --> 1,855 USD*)
   - Integrate the frontend, backend, and smart contracts for seamless user interaction.
   - Conduct extensive testing to ensure secure and accurate token swaps.
   - Perform a security audit to validate the system's reliability.
+ 
+*BackEnd & Front End Integration: 618.3 USD / Qubic Smart Contract Integration: 618.3 USD / Solidity Smart Contract Integration: 618.3 USD
+
 
 **Amount Unlocked End of Milestone 3**: 5,565 USD
 
